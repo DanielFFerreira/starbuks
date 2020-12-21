@@ -1,9 +1,6 @@
 .section-area1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-image: url('/assets/img/bg2.2.jpg');
-  background-position: bottom;
-  background-size: cover;
 }
 .section-area1-content {
   width: 490px;
@@ -52,7 +49,7 @@
   border-radius: 6px;
   color: #252525;
   display: inline-block;
-  margin: 20px 0 20px 0;
+  margin: 55px 0 60px 0;
   padding: 10px 30px;
   text-decoration: none;
   letter-spacing: 1px;

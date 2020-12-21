@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-image: url('/assets/img/bg2.2.jpg');
-  background-position: bottom;
+  background-position: left;
   background-size: cover;
 }
 .section-area2-content {

@@ -1,0 +1,52 @@
+.section-area3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: url('/assets/img/bg2.jpg');
+  background-position: left;
+  background-size: cover;
+}
+.section-area3-content {
+  width: 475px;
+  min-height: 580px;
+  margin: 100px auto 95px auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.section-area3-content h2 {
+  margin: 11px 20px 0 0;
+  font-size: 2.25rem;
+  font-weight: 700;
+  font-family: Oswald,sans-serif;
+  text-transform: capitalize;
+  line-height: 1.2;
+}
+.section-area3-content > p {
+  margin: 20px 20px 20px 0;
+  max-width: 418px;
+  font-family: 'Open Sans',sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+.section-area3-content .section-button a {
+  border: 2px solid #252525;
+  border-radius: 6px;
+  color: #252525;
+  display: inline-block;
+  margin: 35px 0 60px 0;
+  padding: 10px 30px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  background-image: none;
+}
+.section-area3-content .section-button a:hover {
+  background: #454545;
+  color: #eee;
+  outline: none;
+  transition: 600ms;
+}
+.section-area3-img1 {
+  background-image: url('/assets/img/f5.jpg');
+  background-position: top;
+  background-size: cover;
+}
