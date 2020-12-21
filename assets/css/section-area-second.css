@@ -32,6 +32,7 @@
   background: red;
   min-height: 453px;
   background-image: url('/assets/img/f4.jpg');
+  background-size: cover;
   background-position: center;
 }
 .section-area2-img2 {

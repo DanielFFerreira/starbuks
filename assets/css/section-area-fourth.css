@@ -1,0 +1,45 @@
+.section-area4 {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  background: #e8e9ee;
+}
+.section-area4-content {
+  padding: 80px 0 80px 120px;
+}
+.section-area4-content h2 {
+  margin: 15px 20px 0 0;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.2;
+  font-size: 2.25rem;
+  font-family: Oswald,sans-serif;
+}
+.section-area4-content p {
+  margin: 27px 20px 0 0;
+  max-height: 200px;
+}
+.section-button a {
+  border: 2px solid #252525;
+  border-radius: 6px;
+  color: #252525;
+  display: inline-block;
+  padding: 10px 30px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  background-image: none;
+}
+.section-button a:hover {
+  background: #454545;
+  color: #eee;
+  outline: none;
+  transition: 600ms;
+}
+.section-area4-text {
+  margin-bottom: 50px;
+  line-height: 25px;
+}
+.section-area4-img1 {
+  background: url('/assets/img/bg3.jpg') no-repeat;
+  background-position: left;
+}

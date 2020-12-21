@@ -28,6 +28,7 @@
   background: red;
   min-height: 350px;
   background-image: url('/assets/img/f2.jpg');
+  background-size: cover;
   background-position: center;
 }
 .section-area1-img2 {
