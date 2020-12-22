@@ -7,6 +7,7 @@
   background-size: cover;
   height: 600px;
 }
+
 .section-area5-content {
   padding: 120px 80px 80px 80px;
   color: #fff;
@@ -47,6 +48,9 @@
 
 /* Footer */
 .footer {
+  background-image: url('/assets/img/bg-footer-sb.png');
+  background-position: bottom;
+  background-size: cover;
   padding: 4.8rem 4rem 3.2rem 131px;
   z-index: 4;
   position: relative;
@@ -83,6 +87,11 @@
   text-decoration: none;
   padding: .8rem 0 .8rem 0;
   margin-bottom: .8rem;
+  font-weight: 400;
+  font-size: .9rem;
+  font-family: 'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
+  line-height: 1.5;
+  letter-spacing: -.01em;
 }
 .footer-column li a:hover {
   color: #be8e52;
@@ -92,6 +101,5 @@
   margin-left: 3.2rem;
 }
 .footer-logo img {
-  width: 80px;
-  margin-left: 50px;
+  width: 10.37rem;
 }
