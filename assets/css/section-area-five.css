@@ -56,6 +56,16 @@
   position: relative;
   font-family: 'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
 }
+.footer hr {
+  border: none;
+  margin: 0;
+  padding: 2.2rem 0 3.2rem 0;
+}
+.footer hr::before {
+  content: '';
+  display: block;
+  border-top: 2px solid rgba(0,0,0,.1);
+}
 .footer-menu {
   display: flex;
 }
