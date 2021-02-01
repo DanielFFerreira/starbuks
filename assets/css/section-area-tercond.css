@@ -50,3 +50,32 @@
   background-position: top;
   background-size: cover;
 }
+
+@media (max-width: 739px) {
+  .section-area3-content {
+    margin-left: 30px;
+  }
+  .section-area3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 2fr;
+  }
+}
+
+@media (max-width: 620px) {
+  .section-area3 {
+    display: grid;
+    grid-auto-rows: 2fr;
+    grid-template-columns: 1fr;
+  }
+  .section-area3-content {
+    padding: 65px 65px 0 65px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 430px) {
+  .section-area3-content {
+    max-width: 453px;
+  }
+}

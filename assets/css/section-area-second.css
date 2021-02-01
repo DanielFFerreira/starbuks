@@ -1,9 +1,6 @@
 .section-area2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-image: url('/assets/img/bg2.2.jpg');
-  background-position: left;
-  background-size: cover;
 }
 .section-area2-content {
   width: 501px;
@@ -49,7 +46,15 @@
   background: #006341;
   margin: 100px auto 0 0;
 }
-.section-area2-content .section-button a {
+
+#section-border {
+  width: 168px;
+  height: 22px;
+  background: #006341;
+  margin: 100px auto 0 0;
+}
+
+.section-area2-content #section-button a {
   border: 2px solid #252525;
   border-radius: 6px;
   color: #252525;
@@ -61,9 +66,40 @@
   font-size: 1rem;
   background-image: none;
 }
-.section-area2-content .section-button a:hover {
+.section-area2-content #section-button a:hover {
   background: #454545;
   color: #eee;
   outline: none;
   transition: 600ms;
+}
+
+@media (max-width: 739px) {
+  .section-area2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .section-area2-img2 {
+    min-height: 660px;
+  }
+}
+@media (max-width: 430px) {
+  .section-area2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-area2-img2 {
+    min-height: 650px;
+    order: -1;
+  }
+  .section-area2-content h2 {
+    max-width: 300px;
+    text-align: center;
+  }
+  .section-area2-content p {
+    max-width: 300px;
+    text-align: center;
+  }
+  #section-button {
+    margin: 30px auto 30px 50px;
+  }
 }

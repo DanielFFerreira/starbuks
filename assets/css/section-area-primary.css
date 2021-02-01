@@ -62,3 +62,22 @@
   outline: none;
   transition: 600ms;
 }
+
+@media (max-width: 950px) {
+  .section-area1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-area1 #area1-img {
+    order: -2;
+    min-height: 592px;
+  }
+}
+@media (max-width: 739px) {
+  
+}
+@media (max-width: 550px) {
+  .section-area1 #area1-img {
+    background-position: 34% center;
+  }
+}

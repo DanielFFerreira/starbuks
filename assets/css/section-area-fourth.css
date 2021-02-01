@@ -43,3 +43,13 @@
   background: url('/assets/img/bg3.jpg') no-repeat;
   background-position: left;
 }
+
+@media (max-width: 630px) {
+  .section-area4-content {
+    padding-top: 0;
+    padding-left: 75px;
+  }
+  .section-area4-content p {
+    max-width: 350px;
+  }
+}

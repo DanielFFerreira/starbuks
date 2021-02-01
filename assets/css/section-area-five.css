@@ -46,12 +46,25 @@
   transition: 1s;
 }
 
+@media (max-width: 739px) {
+  .section-area5-content {
+    width: 400px;
+    padding: 125px 55px 0 0;
+  }
+}
+@media (max-width: 520px) {
+  .section-area5-content {
+    width: 400px;
+    padding: 115px 55px 0 78px;
+  }
+}
+
 /* Footer */
 .footer {
   background-image: url('/assets/img/bg-footer-sb.png');
   background-position: bottom;
   background-size: cover;
-  padding: 4.8rem 4rem 3.2rem 131px;
+  padding: 4.8rem 4rem 3.2rem 90px;
   z-index: 4;
   position: relative;
   font-family: 'SoDo Sans',Helvetica Neue,Helvetica,Arial,sans-serif;
@@ -112,4 +125,11 @@
 }
 .footer-logo img {
   width: 10.37rem;
+}
+
+@media (max-width: 739px) {
+  
+}
+@media (max-width: 520px) {
+  
 }
